@@ -1,8 +1,14 @@
-module Concurrent.Channel.Stream where
+module Concurrent.Channel.Stream
+  ( streamChannel
+  , streamInput
+  , streamOutput
+  , module Channel
+  ) where
 
 import Prelude
 
 import Concurrent.Channel (Channel, Input(..), Output(..))
+import Concurrent.Channel (Channel, Input(..), Output(..), send, recv) as Channel
 import Data.Maybe (Maybe(..))
 import Effect (Effect)
 import Effect.AVar as AVar
