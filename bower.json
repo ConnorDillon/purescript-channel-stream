@@ -1,0 +1,42 @@
+{
+  "name": "purescript-channel-stream",
+  "homepage": "https://github.com/ConnorDillon/purescript-channel-stream",
+  "authors": [
+    "Connor Dillon <connor@cdillon.nl>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ConnorDillon/purescript-channel-stream.git"
+  },
+  "main": "",
+  "keywords": [
+    "PureScript",
+    "Channel",
+    "Stream",
+    "Streams"
+  ],
+  "license": "Apache-2.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output"
+  ],
+  "dependencies": {
+    "purescript-prelude": "^4.0.0",
+    "purescript-console": "^4.0.0",
+    "purescript-effect": "^2.0.0",
+    "purescript-contravariant": "^4.0.0",
+    "purescript-aff": "^5.0.0",
+    "purescript-avar": "^3.0.0",
+    "purescript-node-streams": "^4.0.0",
+    "purescript-node-fs": "^5.0.0",
+    "purescript-node-fs-aff": "^6.0.0",
+    "purescript-node-buffer": "^6.0.0",
+    "purescript-channel": "https://github.com/ConnorDillon/purescript-channel.git#^0.2.0"
+  },
+  "devDependencies": {
+    "purescript-psci-support": "^4.0.0",
+    "purescript-assert": "^4.0.0"
+  }
+}
