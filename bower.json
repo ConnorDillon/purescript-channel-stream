@@ -23,20 +23,19 @@
     "output"
   ],
   "dependencies": {
-    "purescript-prelude": "^4.0.0",
-    "purescript-console": "^4.0.0",
-    "purescript-effect": "^2.0.0",
-    "purescript-contravariant": "^4.0.0",
-    "purescript-aff": "^5.0.0",
-    "purescript-avar": "^3.0.0",
-    "purescript-node-streams": "^4.0.0",
-    "purescript-node-fs": "^5.0.0",
-    "purescript-node-fs-aff": "^6.0.0",
-    "purescript-node-buffer": "^6.0.0",
-    "purescript-channel": "https://github.com/ConnorDillon/purescript-channel.git#^0.2.0"
+    "purescript-prelude": "^5.0.0",
+    "purescript-console": "^5.0.0",
+    "purescript-effect": "^3.0.0",
+    "purescript-aff": "^6.0.0",
+    "purescript-avar": "^4.0.0",
+    "purescript-node-streams": "^5.0.0",
+    "purescript-node-buffer": "^7.0.0",
+    "purescript-channel": "https://github.com/ConnorDillon/purescript-channel.git#^1.0.0",
+    "purescript-maybe": "^5.0.0",
+    "purescript-transformers": "^5.0.0"
   },
   "devDependencies": {
-    "purescript-psci-support": "^4.0.0",
-    "purescript-assert": "^4.0.0"
+    "purescript-psci-support": "^5.0.0",
+    "purescript-assert": "^5.0.0"
   }
 }
